@@ -1,0 +1,29 @@
+@media screen and (max-width: 900px) {
+    .jumbotron{
+        background-image: url(https://img.freepik.com/free-vector/web-developers-courses-computer-programming-web-design-script-coding-study-computer-science-student-learning-interface-structure-components_335657-2542.jpg?size=626&ext=jpg&uid=R77385274&ga=GA1.2.165408071.1661171255&semt=ais);
+        background-repeat: no-repeat;
+        padding-bottom: 18em;
+        background-position: center;
+        object-fit: contain;
+        opacity: 0.7;
+    }
+    .top_pic{
+        visibility: hidden;
+    }
+    .lead{
+        max-width: fit-content;
+        color: black;        
+    }
+
+    .navbar{
+        visibility: hidden;
+    }
+
+    .cards{
+        grid-template-columns: 300px;
+        grid-template-rows: 600px;    
+    }
+}
+
+/* Ennek a reszponzív dolognak neki kell majd hasalni a közeljövőben */
+
